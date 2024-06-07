@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div id="menu-bar">&#9776;</div>
+        <a href="#" class="logo"><span>T</span>raveling.</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#Service">Service</a>
+            <a href="#packages">packages</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass" id="search-button"></i>
+            <i class="fa-solid fa-xmark" id="search-close" style="display: none;"></i>
+            <i class="fa-regular fa-user" id="login-btn"></i>
+            <i class="fa-solid fa-xmark" id="login-close" style="display: none;"></i>
+        </div>
+        <form action="" class="search-bar-container" id="search-form">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container" id="login-form">
+        <i class="fa-solid fa-xmark" id="login-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="Login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forget Password? <a href="#">Click Here</a></p>
+            <p>Don't have an account? <a href="#">Register Now</a></p>
+        </form>
+    </div>
+       
+    <section class="home" id="home">
+        <div class="content">
+            <h3>An adventure to explore the beauty of Indonesia</h3>
+            <p>Come adventure with us</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+
+        <div class="video-container">
+            <video src="image/bg1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span class="space" > </span>
+            <span>N</span>
+            <span>O</span>
+            <span>W</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/traveling.jpg" alt="Traveling">
+            </div>
+            <form class="booking-form">
+                <div class="inputbox">
+                    <h3>Where To</h3>
+                    <input type="text" placeholder="Place name">
+                </div>
+                <div class="inputbox">
+                    <h3>How Many</h3>
+                    <input type="number" placeholder="Number">
+                </div>
+                <div class="inputbox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn">
+            </form>
+            
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span>A</span>
+            <span>G</span>
+            <span>E</span>
+        </h1>
+
+        <div class="box-container">
+
+        <div class="box">
+            <img src="image/bromo.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Malang</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur. Vitae maxime eligendi repellat temporibus beatae. Quaerat explicabo maiores omnis molestiae eligendi ab dolorem, cupiditate debitis architecto deleniti rerum asperiores.</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">Rp. 350.000 <span>650.000</span></div>
+                <a href="#" class="btn"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/bali.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Bali</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur. Vitae maxime eligendi repellat temporibus beatae. Quaerat explicabo maiores omnis molestiae eligendi ab dolorem, cupiditate debitis architecto deleniti rerum asperiores.</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">Rp. 750.000 <span>Rp. 1200.000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/rajaampat.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Papua</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur. Vitae maxime eligendi repellat temporibus beatae. Quaerat explicabo maiores omnis molestiae eligendi ab dolorem, cupiditate debitis architecto deleniti rerum asperiores.</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">Rp. 5.550.000 <span>Rp. 7.650.000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/borobudur.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Magelang</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur. Vitae maxime eligendi repellat temporibus beatae. Quaerat explicabo maiores omnis molestiae eligendi ab dolorem, cupiditate debitis architecto deleniti rerum asperiores.</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">Rp. 250.000 <span>650.000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/jogja.jpg" alt="" >
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Jogja</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur. Vitae maxime eligendi repellat temporibus beatae. Quaerat explicabo maiores omnis molestiae eligendi ab dolorem, cupiditate debitis architecto deleniti rerum asperiores.</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">Rp. 350.000 <span>650.000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+        </h1>
+
+        <div class="box-container">
+
+        <div class="box">
+            <i class="fa-solid fa-hotel"></i>
+            <h3>Hotel yang Terjangkau</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat debitis tempore optio at voluptas ratione cum modi omnis voluptatibus voluptatum, iusto magnam, non dolorem quaerat exercitationem dolorum? Dolores, explicabo facilis?</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Makanan dan Minuman</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat debitis tempore optio at voluptas ratione cum modi omnis voluptatibus voluptatum, iusto magnam, non dolorem quaerat exercitationem dolorum? Dolores, explicabo facilis?</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-bullhorn"></i>
+            <h3>Panduan Keselamatan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat debitis tempore optio at voluptas ratione cum modi omnis voluptatibus voluptatum, iusto magnam, non dolorem quaerat exercitationem dolorum? Dolores, explicabo facilis?</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-globe"></i>
+            <h3>Wilayah Indonesia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat debitis tempore optio at voluptas ratione cum modi omnis voluptatibus voluptatum, iusto magnam, non dolorem quaerat exercitationem dolorum? Dolores, explicabo facilis?</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-plane"></i>
+            <h3>Tiket Pesawat</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat debitis tempore optio at voluptas ratione cum modi omnis voluptatibus voluptatum, iusto magnam, non dolorem quaerat exercitationem dolorum? Dolores, explicabo facilis?</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>Y</span>
+        </h1>
+          
+        <div class="container">
+            <div class="box">
+                <img src="image/g1.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing mountains</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi iure officia fugit vitae optio sit saepe eaque quia necessitatibus a? Inventore non voluptatibus dolore provident necessitatibus nobis quam a quo!</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/dibali.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Island</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi iure officia fugit vitae optio sit saepe eaque quia necessitatibus a? Inventore non voluptatibus dolore provident necessitatibus nobis quam a quo!</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/fotojogja.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Island</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi iure officia fugit vitae optio sit saepe eaque quia necessitatibus a? Inventore non voluptatibus dolore provident necessitatibus nobis quam a quo!</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/fotoborobudur.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Island</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi iure officia fugit vitae optio sit saepe eaque quia necessitatibus a? Inventore non voluptatibus dolore provident necessitatibus nobis quam a quo!</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
